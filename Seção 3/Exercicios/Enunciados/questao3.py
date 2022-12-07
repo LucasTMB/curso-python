@@ -4,11 +4,13 @@ Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letra
 
 nome = input('Escreva o seu nome: ')
 
-if len(nome) > 0 and len(nome) <= 4:
-    print("Seu nome é curto")
-elif len(nome) > 4 and len(nome) <= 6:
-    print("Seu nome é normal")
-elif len(nome > 6):
-    print("Seu nome é grande")
-else:
+try:
+    if len(nome) <= 4:
+        print("Seu nome é curto")
+    elif len(nome) > 4 and len(nome) <= 6:
+        print("Seu nome é normal")
+    elif len(nome > 6):
+        print("Seu nome é grande")
+except:
     print("Valor inválido!")
+
