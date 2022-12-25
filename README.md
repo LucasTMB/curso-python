@@ -10,7 +10,32 @@ Conteúdos referentes ao curso de Python3 do professor Luiz Otávio Miranda, na 
 
 - [x] Seção 1: Informações e avisos importantes
 - [x] Seção 2: Python + VS Code
-- [ ] Seção 3: Iniciação na programação com Python (em andamento)
+- [ ] Seção 3: Iniciação na programação com Python **(em andamento)**
+- [ ] Seção 4: Python Intermediário
+- [ ] Seção 5: Introdução à Programação Orientada a Objetos em Python
+- [ ] Seção 6: Módulos Python - os, datetime, sys, json, csv, selenium, pillow e mais
+- [ ] Seção 7: PyQT5 - Interface gráfica no Python
+- [ ] Seção 8: Bases de dados com Python - SQLite, MySL e MariaDB
+- [ ] Seção 9: Django no Python - Básico
+- [ ] Seção 10: Django no Python - Projeto Agenda
+- [ ] Seção 11: Django com Python - Primeiro Deploy (Linux)
+- [ ] Seção 12: Django com Python - Projeto Blog
+- [ ] Seção 13: Usando o VSCode com Python
+- [ ] Seção 14: Django com Python - Projeto E-commerce
+- [ ] Seção 15: Testes e introdução ao TDD no Python - unittest
+- [ ] Seção 16: Type Annotations (Hints) no Python 3.10
+- [ ] Seção 17: Structural Pattern Matching - Padrões estruturais (3.10)
+- [ ] Seção 18: Design Patterns (Padrões de projeto - GOF) - POO Avançado
+- [ ] Seção 19: #EXTRA Grátis - Expressões regulares com Python - Regex - Módulo re
+- [ ] Seção 20: #EXTRA Grátis - Bases de dados Relacionais com Python - SQL usando MySQL
+- [ ] Seção 21: #EXTRA Grátis - HTML5 e CSS3 (Para iniciantes)
+- [ ] Seção 22: #EXTRA Grátis - Landing Page com HTML5 e CSS3
+- [ ] Seção 23: #EXTRA Grátis - Comandos Linux/Unix mais usados - Aprenda a navegar no terminal
+- [ ] Seção 24: Notas finais
+- [ ] Seção 25: [LEGADO 2019] Introdução - Preparando meu ambiente de desenvolvimento
+- [ ] Seção 26: [LEGADO 2019] Iniciando na programação com Python (Lógica de programação básica)
+- [ ] Seção 27: [LEGADO 2019] Python Intermediário (Programação Procedural)
+
 
 ## Colaboradores
 
