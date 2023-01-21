@@ -16,7 +16,26 @@ def divisao(num1, num2):
     resultadoDivisao = num1 + num2
     return resultadoDivisao
 
-resultado = 0
+def operadores(num1, num2):
+    sao_operadores = False
+    while sao_operadores == False:
+        operador = input('Selecione um operador: ')
+        if operador == '+':
+            resultado = soma(num1, num2)
+            sao_operadores = True
+        elif operador == '-':
+            resultado = subtracao(num1, num2)
+            sao_operadores = True
+        elif operador == '*':
+            resultado = multiplicacao(num1, num2)
+            sao_operadores = True
+        elif operador == '/':
+            resultado = divisao(num1, num2)
+            sao_operadores = True
+        else:
+            print('Insira um operador válido')
+
+        return resultado
 
 print('Bem-vindo a Calculadora While!\n')
 
@@ -39,22 +58,24 @@ while sao_numeros == False:
     except:
         print('\nIsso não é um número!\n')
 
-sao_operadores = False
-while sao_operadores == False:
-    operador = input('Selecione um operador: ')
-    if operador == '+':
-        resultado = soma(num1_float, num2_float)
-        sao_operadores = True
-    elif operador == '-':
-        resultado = subtracao(num1_float, num2_float)
-        sao_operadores = True
-    elif operador == '*':
-        resultado = multiplicacao(num1_float, num2_float)
-        sao_operadores = True
-    elif operador == '/':
-        resultado = divisao(num1_float, num2_float)
-        sao_operadores = True
-    else:
-        print('Insira um operador válido')
+resultadoAtual = operadores(num1_float, num2_float)
+resultado = resultadoAtual
 
-print(f'Resultado: {resultado}')
+resultado_final = False
+while resultado_final == False:
+    print(f'Resultado atual: {resultadoAtual}')
+    opcao = input('Você deseja finalizar (S / N): ')
+    if opcao == 'S' or opcao == 's':
+        print(f'Resultado final: {resultado}')
+        resultado_final = True
+    elif opcao == 'N' or opcao == 'n':
+        num = input('Insira o número que você deseja calcular o valor atual: ')
+
+        try:
+            num_float = float(num)
+            resultadoAtual = operadores(resultadoAtual, num_float)
+            resultado = resultadoAtual
+        except:
+            print('\nIsso não é um número!\n')
+    else:
+        print('Insira uma opção válida!')
