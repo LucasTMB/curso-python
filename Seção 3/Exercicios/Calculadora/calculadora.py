@@ -65,10 +65,11 @@ resultado_final = False
 while resultado_final == False:
     print(f'\nResultado atual: {resultadoAtual}\n')
     opcao = input('Você deseja finalizar (S / N): ')
-    if opcao == 'S' or opcao == 's':
+    opcao = opcao.upper()
+    if opcao == 'S':
         print(f'\nResultado final: {resultado}\n')
         resultado_final = True
-    elif opcao == 'N' or opcao == 'n':
+    elif opcao == 'N':
         num = input('Insira o número que você deseja calcular o valor atual: ')
 
         try:
