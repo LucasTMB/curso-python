@@ -16,3 +16,10 @@ del lista[-1] #eliminando o último item
 # lista.clear() -- limpa a lista
 lista.insert(0, 5) #(indice, valor)
 print(lista)
+
+lista2 = [100, 200, 300]
+lista3 = lista + lista2
+print(lista3)
+
+lista.extend(lista2) # esse método faz a ação, mas n retorna o valor de volta
+print(lista)
